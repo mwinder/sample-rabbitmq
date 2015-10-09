@@ -51,6 +51,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Account.Published\Account.Published.fsproj">
+      <Project>{1cc2fc5d-9c01-48a2-a335-bc53c105603a}</Project>
+      <Name>Account.Published</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Payment.Published\Payment.Published.csproj">
       <Project>{e6eb2d17-6159-4aca-93d0-b1fe20036cd2}</Project>
       <Name>Payment.Published</Name>

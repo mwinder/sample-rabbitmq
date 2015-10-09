@@ -1,0 +1,53 @@
+// Available variables which can be used inside of strings.
+// ${workspaceRoot}: the root folder of the team
+// ${file}: the current opened file
+// ${fileBasename}: the current opened file's basename
+// ${fileDirname}: the current opened file's dirname
+// ${fileExtname}: the current opened file's extension
+// ${cwd}: the current working directory of the spawned process
+
+{
+	"version": "0.1.0",
+	"command": "gulp",
+	"isShellCommand": true,
+	"tasks": [
+		{
+			"taskName": "build",			
+			"isBuildCommand": true, 	// Make this the default build command.			
+			//"isWatching": true, 		// Task is running in watching mode.
+			"showOutput": "silent",
+			"isWatching": false, 		// Show the output window only if unrecognized errors occur.
+			"problemMatcher": "$msCompile"
+		},
+		{
+			"taskName": "test",
+			"args": [
+				"test"
+			],
+			"isTestCommand": true,
+			"showOutput": "always",
+			"isWatching": false
+		}
+	]
+}
+
+/*
+{
+	"version": "0.1.0",
+	"command": "msbuild",
+	"args": [
+		"/property:GenerateFullPaths=true",
+		"/verbosity:minimal",
+		"/nologo"
+	],
+	"taskSelector": "/t:",
+	"showOutput": "silent",
+	"tasks": [
+		{
+			"taskName": "build",
+			"showOutput": "silent",
+			"problemMatcher": "$msCompile"
+		}
+	]
+}
+*/

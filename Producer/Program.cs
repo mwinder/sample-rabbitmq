@@ -1,5 +1,5 @@
 ﻿using EasyNetQ;
-using Messages;
+using Payment.Published;
 using System;
 using System.Threading;
 

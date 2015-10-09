@@ -7,8 +7,8 @@
     <ProjectGuid>{E6EB2D17-6159-4ACA-93D0-B1FE20036CD2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Messages</RootNamespace>
-    <AssemblyName>Messages</AssemblyName>
+    <RootNamespace>Payment.Published</RootNamespace>
+    <AssemblyName>Payment.Published</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

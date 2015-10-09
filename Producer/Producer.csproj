@@ -51,9 +51,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Messages\Messages.csproj">
+    <ProjectReference Include="..\Payment.Published\Payment.Published.csproj">
       <Project>{e6eb2d17-6159-4aca-93d0-b1fe20036cd2}</Project>
-      <Name>Messages</Name>
+      <Name>Payment.Published</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

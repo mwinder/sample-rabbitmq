@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Messages
+namespace Payment.Published
 {
     public class PaymentSucceeded
     {

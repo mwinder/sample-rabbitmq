@@ -1,10 +1,9 @@
 ﻿using EasyNetQ;
-using Messages;
 using NLog;
 using NLog.Config;
-using NLog.Layouts;
 using NLog.Targets;
 using NLog.Targets.ElasticSearch;
+using Payment.Published;
 using System;
 
 namespace Consumer
